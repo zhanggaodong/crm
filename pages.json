@@ -1,0 +1,262 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": { 
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#3c5dd6",
+				"backgroundColor": "#fff"
+			 }
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "工作台",
+				"navigationBarBackgroundColor": "#3c5dd6",
+				"backgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/tixing/tixing",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "客户提醒",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark" 
+				
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+				 
+			}
+		},{
+			"path": "pages/newslist/newslist",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "系统公告",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"enablePullDownRefresh": true,  
+				"backgroundTextStyle": "dark" 
+			}
+		},{
+			"path": "pages/newsdetail/newsdetail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "系统公告",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/kehuguanli/kehuguanli",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "客户管理",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+		  }
+		},{
+			"path": "pages/gonghai/gonghai",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "公海客户",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/kehujiandang/kehujiandang",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "客户建档",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/kehuxiangqing/kehuxiangqing",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "客户档案",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/gerenshezhi/gerenshezhi",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "个人设置",
+				"navigationBarBackgroundColor": "#3c5dd6",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/xiugaiziliao/xiugaiziliao",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "修改资料",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/xiugaimima/xiugaimima",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "修改密码",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/yewutongji/yewutongji",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "业务统计",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/tongxunlu/tongxunlu",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "通讯录",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/genghuantuandui/genghuantuandui",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "更换团队",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/yejichakan/yejichakan",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "业绩查看",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/help/help",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "帮助中心",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/helpdetail/helpdetail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "内容详情",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/kehuzhuanyi/kehuzhuanyi",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "客户转移",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/kehujiaru/kehujiaru",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "客户加入",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/tuanduimima/tuanduimima",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "修改密码",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/wangzhanjiankang/wangzhanjiankang",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "网站健康",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/liuyanlist/liuyanlist",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "网站留言",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/liuyanxiangqing/liuyanxiangqing",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "留言详情",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/kehutixing/kehutixing",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "修改客户提醒",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/shouquan/shouquan",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "用户授权",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		}
+    ],
+	 
+	"tabBar": {
+		"color": "#696969",
+		"selectedColor": "#3c5dd6",
+		"backgroundColor": "#fff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabBar_ico1.png",
+			"selectedIconPath": "static/tabBar_ico1_hover.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/tixing/tixing",
+			"iconPath": "static/tabBar_ico2.png",
+			"selectedIconPath": "static/tabBar_ico2_hover.png",
+			"text": "提醒"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/tabBar_ico3.png",
+			"selectedIconPath": "static/tabBar_ico3_hover.png",
+			"text": "工作台"
+		}, {
+			"pagePath": "pages/kehuguanli/kehuguanli",
+			"iconPath": "static/tabBar_ico4.png",
+			"selectedIconPath": "static/tabBar_ico4_hover.png",
+			"text": "客户"
+		}, {
+			"pagePath": "pages/gonghai/gonghai",
+			"iconPath": "static/tabBar_ico5.png",
+			"selectedIconPath": "static/tabBar_ico5_hover.png",
+			"text": "公海"
+		}]
+	},
+	"permission": {
+	  "scope.userInfo": {
+	    "desc": "位置信息效果展示"
+	  }
+	}
+}
